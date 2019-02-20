@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>zoeyhyeinlee</title>
+  <style>
+    @font-face{font-family:'Avenir'; src:url('./fonts/AvenirLTStd-Book.otf')}
+    @font-face{font-family:'Gotham black'; src:url('./fonts/GOTHAM-BLACK.ttf')}
+    @font-face{font-family:'Gotham bold'; src:url('./fonts/Gotham-Bold.ttf')}
+    @font-face{font-family:'Gotham book'; src:url('./fonts/Gotham-Book.otf')}
+    @font-face{font-family:'Gotham book italic'; src:url('./fonts/Gotham-BookItalic.otf')}
+    @font-face{font-family:'Serifa'; src:url('./fonts/Serifa 55 Roman.ttf')}
+
+    html, body {
+      margin: 0;
+      padding: 0;
+
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+      background-color: #ffffff;
+      background-image: linear-gradient(104deg, #ffffff 58%, #222222 58%);
+    }
+
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+
+    a:link, a:visited, a:hover, a:active {
+      color: inherit;
+    }
+
+    .left {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 50%;
+      color: #111111;
+      padding-top: 18.72vh;
+      padding-left: 11.6vw;
+    }
+
+    .right {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      right: 0;
+      color: #ffffff;
+      padding-left: 17.6vw;
+      padding-bottom: 32.11vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    .intro {
+      font-family: 'Gotham black';
+      font-size: 5.7vw;
+      letter-spacing: -1.2px;
+    }
+
+    #job {
+      font-family: 'Avenir';
+      font-size: 2vw;
+      line-height: 2.82vw;
+      letter-spacing: -1.2px;
+      margin-top: 2.92vw;
+    }
+
+    #location {
+      font-family: 'Avenir';
+      font-size: 1.34vw;
+      letter-spacing: -0.76px;
+      margin-top: 2.73vw;
+      padding-bottom: 13.3vh;
+    }
+
+    #email {
+      position: absolute;
+      left: 11.6vw;
+      bottom: 3.55vh;
+      font-family: 'Serifa';
+      font-size: 0.95vw;
+      color: #999999;
+      line-height: 2.73vw;
+    }
+
+    .project {
+      display: block;
+      font-family: 'Avenir';
+      font-size: 1.34vw;
+      letter-spacing: -0.4px;
+      padding-bottom: 1.12vh;
+    }
+
+    .project_title {
+      margin-bottom: 2.62vh;
+    }
+
+    a.project {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="left">
+
+    <h1 class="intro">HI THERE</h1>
+    <h1 class="intro" style="margin-top: 2.45vw">I’m Hyein Lee</h1>
+
+    <div id="job">
+      Product Designer
+      <br/>
+      UX Designer
+    </div>
+
+    <div id="location">Seoul, South Korea</div>
+    <div id="email">Contact me : zoeyhyeinlee@gmail.com</div>
+  </div>
+
+  <div class="right">
+    <div class="project project_title">My Works</div>
+    <a href="www.naver.com" class="project">Ring</a>
+    <a class="project">Hello Office</a>
+    <a class="project">His Her Taste</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Zoey Hyein Lee</title>
+  <style>
+    @font-face{font-family:'Avenir'; src:url('./fonts/AvenirLTStd-Book.otf')}
+    @font-face{font-family:'GothamNarrow black'; src:url('./fonts/GothamNarrow-Black.otf')}
+    @font-face{font-family:'GothamNarrow book'; src:url('./fonts/GothamNarrow-Book.otf')}
+    @font-face{
+      font-family:'GothamNarrow book';
+      src:url('./fonts/GothamNarrow-BookItalic.otf');
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: "Serifa";
+      src: url("./fonts/Serifa Light.ttf");
+    }
+    @font-face {
+      font-family: "Serifa";
+      src: url("./fonts/Serifa Bold.ttf");
+      font-weight: bold;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      position: fixed;
+      top: 5.2vw;
+      bottom: 0;
+      left: 11.6vw;
+      right: 0;
+
+      background-color: #fafafa;
+      color: #111111;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    a:link, a:visited, a:hover, a:active {
+      color: inherit;
+    }
+
+    .intro {;
+      font-family: 'Serifa';
+      font-size: 5.93vw;
+      line-height: 5.72vw;
+      letter-spacing: -1.2px;
+    }
+
+    .intro .name {
+      font-weight: bold;
+    }
+
+    .intro.second {
+      margin-top: -2.2vw;
+    }
+
+    #works {
+      margin-top: 6.87vw;
+      font-size: 1.45vw;
+    }
+
+    #works .title {
+      font-family: 'GothamNarrow black';
+      padding-bottom: 1.40vw;
+    }
+
+    #works .item {
+      margin-bottom: 0.98vw;
+    }
+
+    #works .item a {
+      font-family: 'GothamNarrow book';
+      text-decoration: none;
+      letter-spacing: 0.2px;
+    }
+
+    #works a:hover {
+      color: #0fd5ff;
+      text-decoration: underline;
+      font-style: italic;
+    }
+
+    #contact {
+      position: fixed;
+      right: -4vw;
+      top: 45%;
+      transform: rotate(90deg);
+      font-family: 'Serifa';
+      font-size: 1.04vw;
+      color: #868686;
+    }
+  </style>
+</head>
+<body>
+  <p class="intro">
+    Hi there<br/>
+    I’m <span class="name">Hyein Lee</span>,<br/>
+  </p>
+  <p class="intro second">
+    a ux/ui designer<br/>
+    based in Seoul,<br/>
+    South Korea now.
+  </p>
+
+  <div id="works">
+    <div class="title">Works</div>
+
+    <div class="item">
+      <a href="ring.html" target="_blank">Ring</a>
+    </div>
+    <div class="item">
+      <a href="hello_office.html" target="_blank">Hello Office</a>
+    </div>
+    <div class="item">
+      <a href="his_her_taste.html" target="_blank">His Her Taste</a>
+    </div>
+  </div>
+
+  <div id="contact">
+    Contact me : zoeyhyeinlee@gmail.com
+  </div>
+</body>
+</html>
